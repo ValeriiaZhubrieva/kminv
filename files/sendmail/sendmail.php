@@ -56,7 +56,6 @@
 	*/
 
 	$mail->Body = $body;
-
 	//Відправляємо
 	if (!$mail->send()) {
 		$message = 'Помилка';
